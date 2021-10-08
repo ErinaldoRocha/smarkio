@@ -1,0 +1,25 @@
+<body>
+  
+<content class="container">
+
+  <mat-card class="card">
+  
+  <img mat-card-image src="https://image.tmdb.org/t/p/w500{{dataSource.belongs_to_collection.poster_path}}" alt="">
+ 
+  <div>
+    <h1>{{dataSource.title}}</h1>
+    <h3>{{ano}}</h3>
+    <p>{{dataSource.runtime}} min | Linguagem: {{dataSource.original_language}} | {{dataSource.genres[0].name}}</p>
+    <p>{{dataSource.overview}}</p>
+    <p>Nota: {{dataSource.vote_average}}</p>
+  </div>
+
+</mat-card>
+
+</content>
+<div class="botao">
+  <button mat-fab color="primary" (click)="home()">
+    <mat-icon>home</mat-icon>
+  </button>
+</div>
+</body>

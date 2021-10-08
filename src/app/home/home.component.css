@@ -1,0 +1,48 @@
+.card{
+  margin-top: 250px;
+  width: 300px;
+  height: 420px;
+  border-radius: 15px;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent !important;
+ }
+
+img{
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 200px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.botaoMenu{
+  background-color:transparent !important;
+  border: 0px;
+}
+.divbotao{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 35px;
+}
+.botao{
+  margin-top: 20px;
+  margin-right: 50px;
+}
+body {
+  background-image: url("/assets/fundo1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+ }

@@ -1,0 +1,67 @@
+
+<body>
+<content class="container">
+
+  <mat-card class="card">
+    <button class="botaoMenu" (click)="detalhes(dataSource[p].id)">
+    <mat-card-header>
+     </mat-card-header>
+    <img mat-card-image src="https://image.tmdb.org/t/p/w500{{dataSource[p].poster_path}}" alt="">
+    <mat-card-content>
+      <mat-card-title>{{dataSource[p].title}}</mat-card-title>
+      <mat-card-subtitle>{{dataSource[p].release_date}}</mat-card-subtitle>
+    </mat-card-content>
+  </button>
+  </mat-card>
+  
+  
+  <mat-card class="card">
+    <button class="botaoMenu" (click)="detalhes(dataSource[s].id)">
+    <mat-card-header>
+     </mat-card-header>
+    <img mat-card-image src="https://image.tmdb.org/t/p/w500{{dataSource[s].poster_path}}" alt="">
+    <mat-card-content>
+      <mat-card-title>{{dataSource[s].title}}</mat-card-title>
+      <mat-card-subtitle>{{dataSource[s].release_date}}</mat-card-subtitle>
+    </mat-card-content>
+    </button>
+  </mat-card>
+  
+  <mat-card class="card">
+    <button class="botaoMenu" (click)="detalhes(dataSource[t].id)">
+    <mat-card-header>
+     </mat-card-header>
+    <img mat-card-image src="https://image.tmdb.org/t/p/w500{{dataSource[t].poster_path}}" alt="">
+    <mat-card-content>
+      <mat-card-title>{{dataSource[t].title}}</mat-card-title>
+      <mat-card-subtitle>{{dataSource[t].release_date}}</mat-card-subtitle>
+    </mat-card-content>
+  </button>
+  </mat-card>
+  
+  <mat-card class="card">
+    <button class="botaoMenu" (click)="detalhes(dataSource[q].id)">
+    <mat-card-header>
+     </mat-card-header>
+    <img mat-card-image src="https://image.tmdb.org/t/p/w500{{dataSource[q].poster_path}}" alt="">
+    <mat-card-content>
+      <mat-card-title>{{dataSource[q].title}}</mat-card-title>
+      <mat-card-subtitle>{{dataSource[q].release_date}}</mat-card-subtitle>
+    </mat-card-content>
+  </button>
+  </mat-card>
+
+
+</content>
+
+<div class="divbotao">
+  <button class="botao"(click)="esquerda()" mat-fab color="primary">
+  <mat-icon>skip_previous</mat-icon>
+  </button>
+
+
+  <button class="botao" (click)="direita()" mat-fab color="primary">
+  <mat-icon>skip_next</mat-icon>
+  </button>
+</div>
+</body>

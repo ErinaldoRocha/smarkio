@@ -1,0 +1,40 @@
+.card{
+  margin-top: 250px;
+  max-width:700px;
+  max-height: 100%;
+  margin-right: 15px;
+  display: flex;
+  padding-top: 45px;
+  border-radius: 50px;
+  }
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+img{
+  padding-left: 20px;
+  padding-right: 10px;
+  width: 300px;
+  height: 500px;
+  border-radius: 50px;
+}
+
+div {
+  margin-left: 15px;
+}
+
+.botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+body {
+  background-image: url("/assets/fundo1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+ }
